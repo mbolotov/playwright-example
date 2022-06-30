@@ -1,0 +1,25 @@
+{
+  "name": "playwright-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test tests -g '/verify no results/'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@node-minify/cli": "^6.2.0",
+    "@node-minify/uglify-js": "^6.2.0",
+    "@playwright/test": "^1.22.2",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-minify": "^0.5.1",
+    "babel-preset-minify": "^0.5.1",
+    "deasync-promise": "^1.0.1",
+    "jest": "^27.4.7",
+    "mocha": "^9.1.3",
+    "node-inspect": "^2.0.0"
+  }
+}
